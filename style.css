@@ -1,0 +1,271 @@
+html {
+    font-size: 30px;
+}
+body {
+    margin: 0;
+}
+
+.top-bar {
+    display: flex;
+    background-color: #000000;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.footer {
+    display: flex;
+    background-color: #000000;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.logo-one {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    font-size: 35px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    font-size: 35px;
+}
+
+#svglink {
+    color: white;
+}
+
+.container {
+    display: flex;
+    gap: 1rem;
+    background-color: #f5f5f5;
+    color: #000000;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+#first-line {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.self-image {
+    width: 40%;
+    padding: 10px;
+}
+
+.one {
+    padding-left: 2rem;
+}
+
+h1 {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+}
+
+.resume {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+}
+
+.about-me {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.card-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.card-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 1rem;
+
+}
+
+.card {
+    flex-grow: 1;
+    flex-direction: column;
+    background-color: white;
+    border: solid 1px #00000020;
+    box-shadow: 0px 0px 20px  #00000020;
+    width: 280px;
+}
+
+.card-image {
+    width: 100%;
+    margin: 0;
+}
+
+.card-title {
+    text-align: center;
+    padding: 0.8rem;
+    margin: 0;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 14px;
+    padding: 0.8rem;
+    margin: 0;
+    min-height: 80px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+    padding: 0.5rem;
+    background-color: #000000;
+    margin: 0;
+}
+
+.about-me-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.about-me-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+}
+
+#max-the-dog {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.contact-me {
+    background-color: #f5f5f5;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+@media (max-width: 900px) {
+    .top-bar {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-bottom: 1rem;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-bottom: 1rem;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .self-image {
+        width: 95%;
+        padding: 0;
+    }
+
+    .one {
+        padding-left: 0;
+        padding-top: 2rem
+    }
+
+    #first-line {
+        text-align: center;
+    }
+
+    .logo-one {
+        padding: 0;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        width: 100%;
+    }
+
+    .card {
+        width: 90%;
+        }
+
+    .card-image {
+        width: 100%;
+    }
+
+    .about-me-container {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+    }
+}
